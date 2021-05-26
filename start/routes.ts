@@ -19,6 +19,7 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+import './health'
 
 Route.get('/', async () => {
   return { hello: 'world' }
