@@ -13,6 +13,7 @@ export default class AppProvider {
 
   public async ready() {
     // App is ready
+    await import('../start/services/covin/covin.interceptor')
   }
 
   public async shutdown() {
